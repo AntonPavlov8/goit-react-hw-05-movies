@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { lazy, Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 
 import { Navbar } from './NavBar/NavBar';
 
@@ -63,6 +63,7 @@ export const App = () => {
             ></Route>
           </Route>
         </Route>
+        <Route path="*" element={<Navigate to="/home" replace />} />
       </Routes>
     </div>
   );
