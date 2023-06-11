@@ -1,0 +1,17 @@
+.navBar {
+  margin: 12px;
+  display: flex;
+  gap: 24px;
+  align-items: baseline;
+  font-size: 18px;
+}
+
+.navLink {
+  color: black;
+  text-decoration: none;
+}
+.active {
+  color: violet;
+  text-decoration: none;
+  font-size: 24px;
+}

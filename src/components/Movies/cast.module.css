@@ -1,0 +1,15 @@
+.castList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+.castListItem {
+  width: 150px;
+  border: 2px solid #656565;
+  border-radius: 5px;
+  padding: 8px;
+  box-shadow: 5px 5px 2px #65656550;
+}
