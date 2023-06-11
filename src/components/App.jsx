@@ -33,7 +33,7 @@ export const App = () => {
           path="/movies"
           element={
             <Suspense fallback={<>Loading...</>}>
-              <Movies movieData={movieData} setMovieData={setMovieData} />
+              <Movies setMovieData={setMovieData} />
             </Suspense>
           }
         >

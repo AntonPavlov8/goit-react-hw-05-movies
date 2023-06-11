@@ -9,8 +9,7 @@ const instance = axios.create({
   },
 });
 
-export async function getTrendingMovies(page) {
-  // add a page
+export async function getTrendingMovies() {
   const response = await instance.get('trending/all/day');
   return response.data;
 }

@@ -17,7 +17,7 @@ export default function Search() {
     if (searchQuery) {
       fetchData();
     }
-  }, [searchParams]);
+  }, [searchParams, searchQuery]);
 
   const searchFn = e => {
     e.preventDefault();

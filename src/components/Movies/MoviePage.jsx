@@ -36,6 +36,8 @@ export default function MoviePage({ movieInfo }) {
           <p>User Score: {userScore}%</p>
           <h3>Overview</h3>
           <p>{movieInfo.overview}</p>
+          <h3>Genres:</h3>
+          <p>{movieInfo.genres?.map(g => g.name + ' ')}</p>
         </div>
       </div>
       <hr />
